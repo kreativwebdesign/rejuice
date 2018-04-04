@@ -1,13 +1,11 @@
-import {
-  PENDING,
-  FULFILLED,
-  REJECTED,
-} from 'redux-promise-middleware';
-import statusCode from 'common/statusCode';
+import statusCode from './statusCode';
 
 const EXTEND = 'EXTEND';
 const FULL_MERGE = 'FULL_MERGE';
 
+const PENDING = 'PENDING';
+const FULFILLED = 'FULFILLED';
+const REJECTED = 'REJECTED';
 const EMPTY = 'EMPTY';
 const FAILED = 'FAILED';
 const SUCCEEDED = 'SUCCEEDED';
