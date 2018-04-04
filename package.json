@@ -3,22 +3,34 @@
   "version": "0.0.1-alpha",
   "description": "Redux helpers",
   "main": "src/index.js",
+  "module": "src/index.js",
   "repository": "https://github.com/StuckiSimon/rejuice.git",
   "author": "Simon Stucki",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "karma start"
   },
   "peerDependencies": {
     "redux": "^3.7.2",
     "redux-promise-middleware": "^5.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint-plugin-react": "^7.7.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-jasmine-html-reporter": "^1.0.0",
+    "karma-webpack": "^3.0.0",
+    "watchify": "^3.11.0",
+    "webpack": "^4.5.0"
   }
 }
