@@ -1,4 +1,5 @@
-# Rejuice - reduce redux boilerplate
+# Rejuice 🍹 - reduce redux boilerplate
 
-*wip*
+## WIP
+
 Rejuice is an opinionated Redux helper library.
