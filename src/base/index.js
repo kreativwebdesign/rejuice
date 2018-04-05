@@ -1,4 +1,4 @@
-import statusCode from './statusCode';
+import statusCode from './status-code';
 
 const EXTEND = 'EXTEND';
 const FULL_MERGE = 'FULL_MERGE';

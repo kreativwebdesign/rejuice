@@ -1,4 +1,4 @@
-import statusCode from '../base/statusCode';
+import statusCode from '../base/status-code';
 import {
   resetting,
   pending,

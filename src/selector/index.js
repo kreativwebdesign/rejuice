@@ -5,7 +5,7 @@ import {
   isSucceededStatus,
   isDelete,
   isCreate,
-} from 'base';
+} from '../base';
 
 const emptyArrayFor = item => (item === undefined ? [] : [item]);
 
