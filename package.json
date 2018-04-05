@@ -1,5 +1,5 @@
 {
-  "name": "rejuice",
+  "name": "rejuice-redux",
   "version": "0.0.1-alpha",
   "description": "Redux helpers",
   "main": "src/index.js",
