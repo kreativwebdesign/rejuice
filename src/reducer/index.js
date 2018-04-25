@@ -29,7 +29,7 @@ const defaultReducer = TYPE => (state = emptyState(), action) => {
   case fulfilled(TYPE):
     return {
       ...state,
-      data: payload.data,
+      data: payload.data || state.data,
       status: statusCode.isOk(payload.status) ? succeed(payload.operation) : fail(payload),
     };
   case pending(TYPE):
