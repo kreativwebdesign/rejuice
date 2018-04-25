@@ -36,13 +36,11 @@ const defaultReducer = TYPE => (state = emptyState(), action) => {
     return {
       ...state,
       status: update(),
-      data: null,
     };
   case rejected(TYPE):
     return {
       ...state,
       status: fail(payload),
-      data: null,
     };
   default:
     return state;
