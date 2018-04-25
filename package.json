@@ -1,6 +1,6 @@
 {
   "name": "rejuice-redux",
-  "version": "0.0.4-alpha",
+  "version": "0.0.5-alpha",
   "description": "Redux helpers",
   "main": "src/index.js",
   "module": "src/index.js",
